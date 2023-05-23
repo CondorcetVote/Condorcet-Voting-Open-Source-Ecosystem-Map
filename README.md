@@ -1,4 +1,4 @@
-Condorcet Voting Open Source Projects Map
+Condorcet Voting Open Source Ecosystem Map
 =========================================
 A detailed index of free _(open-source)_ software around preferential voting.  
 
