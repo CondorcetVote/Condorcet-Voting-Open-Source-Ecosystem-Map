@@ -30,16 +30,21 @@ A detailed index of free _(open-source)_ software around preferential voting.
 
 
 ## Web GUI application
+  #### [Belenios](https://github.com/glondu/belenios/)
+  > *Methods:* ```Schulze / Instant-Runoff (alternative vote) / STV / Majority Judgment ```  
+  > *Main technologies:* OCaml  
+  > *Online version*: [vote.belenios.org/admin](https://vote.belenios.org/admin)  
+
   #### [Condorcet.Vote](https://github.com/julien-boudry/Condorcet.Vote)
   > *Methods:* ```Condorcet / Schulze (+ variants) / Kemeny-Young / Ranked Pairs (+ variants) / Minmax (+variants) / Borda / FTPT / Copeland / Dodgson / Dowdall / Instant-Runoff (alternative vote)```  
   > *Main technologies:* PHP / Mysql / Docker  
   > *Online version*: [www.condorcet.vote](https://www.condorcet.vote)  
-  
+  >
   > An open-source demo for a web ovting application based on [Condorcet](#condorcet-1) as backend.
 
   #### [Condorcet Internet Voting System (Civs)](https://github.com/andrewcmyers/civs)
-  > *Main technologies:* Perl / Apache CGI  
-  > *Online version*: [civs1.civs.us](https://civs1.civs.us/)  
+  > *Main technologies:* Perl  
+  > *Online version*: [vote.heliosvoting.org](https://vote.heliosvoting.org/). 
 
   #### [Pollen](https://gitlab.nuiton.org/chorem/pollen)
   > *Methods:* ```Cumulative / Condorcet / Borda / Instant-Runoff (alternative vote) / Coombs / Majority judgment / FTPT```  
