@@ -90,3 +90,10 @@ A detailed index of free _(open-source)_ software around preferential voting.
 
 ## Software GUI applications
 *To fill*
+
+
+## Scientific work & Data
+
+  ### [Tideman Election Collection](https://rangevoting.org/TidemanData.html)
+  > Collection of elections ballots for testing methods theories and implementations.  
+  > Also expanded and calculated on this project >>> [Condorcet_Tideman_Election_Collection](https://github.com/CondorcetVote/Condorcet_Tideman_Election_Collection)
