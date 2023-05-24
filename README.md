@@ -6,6 +6,40 @@ A detailed index of free _(open-source)_ software around preferential voting.
 
 **_Pull request welcome!_**
 
+- [Condorcet Voting Open Source Ecosystem Map](#condorcet-voting-open-source-ecosystem-map)
+  - [Formats \& Standards](#formats--standards)
+      - [Condorcet Election Format](#condorcet-election-format)
+      - [David Hill format](#david-hill-format)
+      - [Debian format](#debian-format)
+      - [Conversion tools](#conversion-tools)
+  - [Command-line applications](#command-line-applications)
+      - [Condorcet](#condorcet)
+      - [Debian Devotee](#debian-devotee)
+  - [Web GUI application](#web-gui-application)
+      - [Belenios](#belenios)
+      - [Condorcet.Vote](#condorcetvote)
+      - [Condorcet Internet Voting System (Civs)](#condorcet-internet-voting-system-civs)
+      - [Pollen](#pollen)
+  - [Software Components (libraries)](#software-components-libraries)
+    - [PHP](#php)
+      - [Condorcet](#condorcet-1)
+      - [Pivot-Libre: Tideman](#pivot-libre-tideman)
+    - [PERL](#perl)
+      - [PrefVote](#prefvote)
+    - [RUST](#rust)
+    - [Ruby](#ruby)
+      - [Vote-Schulze](#vote-schulze)
+    - [Python](#python)
+    - [Javascript / Typescript](#javascript--typescript)
+    - [C / C++](#c--c)
+    - [Java](#java)
+  - [Software GUI applications](#software-gui-applications)
+  - [Scientific Work \& Data](#scientific-work--data)
+    - [Tideman Election Collection](#tideman-election-collection)
+  - [Helper Tools](#helper-tools)
+    - [Random Votes generators](#random-votes-generators)
+
+
 ## Formats & Standards
   #### [Condorcet Election Format](https://github.com/CondorcetVote/CondorcetElectionFormat)
   > Specification of a free format, representing an Election an her data (parameters, candidates, votes). The objective of this format is to be easily written and read by a human, with the rigor and precision necessary for ingestion by a program.
@@ -16,8 +50,8 @@ A detailed index of free _(open-source)_ software around preferential voting.
   #### [Debian format](https://www.debian.org/vote/index.en.html)
   > Custom format used by Debian project.  
   
-  #### Converion tools
-  * **[Condorcet](https://github.com/julien-boudry/Condorcet)** program include a command line tools *(and also php api)* to convert some formats to anothers formats. Including Debian, David-Hill, Civs, CondorcetElectionFormat.
+  #### Conversion tools
+  * **[Condorcet](https://github.com/julien-boudry/Condorcet)** program includes command line tools *(and also php api)* to convert some formats to other formats. Including Debian, David-Hill, Civs, CondorcetElectionFormat.
   
 ## Command-line applications
   #### [Condorcet](https://github.com/julien-boudry/Condorcet)
@@ -92,8 +126,15 @@ A detailed index of free _(open-source)_ software around preferential voting.
 *To fill*
 
 
-## Scientific work & Data
+## Scientific Work & Data
 
   ### [Tideman Election Collection](https://rangevoting.org/TidemanData.html)
   > Collection of elections ballots for testing methods theories and implementations.  
   > Also expanded and calculated on this project >>> [Condorcet_Tideman_Election_Collection](https://github.com/CondorcetVote/Condorcet_Tideman_Election_Collection)
+
+
+## Helper Tools
+
+  ### Random Votes generators
+
+  * [Condorcet](#condorcet-1) provides a vote random generator to generate votes *(crypto-safe engine, or predictive randomness with seed and many engines)*. Usage as a PHP API only, no command-line support.
