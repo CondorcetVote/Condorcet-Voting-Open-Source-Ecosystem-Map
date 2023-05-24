@@ -31,7 +31,7 @@ A detailed index of free _(open-source)_ software around preferential voting.
 
 ## Web GUI application
   #### [Belenios](https://github.com/glondu/belenios/)
-  > *Methods:* ```Schulze / STV ```
+  > *Methods:* ```Schulze / STV ```  
   > *Main technologies:* OCaml  
   > *Online version*: [vote.belenios.org/admin](https://vote.belenios.org/admin)  
 
