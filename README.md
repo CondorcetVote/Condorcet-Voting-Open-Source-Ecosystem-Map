@@ -44,7 +44,7 @@ A detailed index of free _(open-source)_ software around preferential voting.
 
   #### [Condorcet Internet Voting System (Civs)](https://github.com/andrewcmyers/civs)
   > *Main technologies:* Perl  
-  > *Online version*: [vote.heliosvoting.org](https://vote.heliosvoting.org/). 
+  > *Online version*: [civs1.civs.us](https://civs1.civs.us/).
 
   #### [Pollen](https://gitlab.nuiton.org/chorem/pollen)
   > *Methods:* ```Cumulative / Condorcet / Borda / Instant-Runoff (alternative vote) / Coombs / Majority judgment / FTPT```  
