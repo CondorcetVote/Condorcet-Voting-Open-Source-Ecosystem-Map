@@ -9,12 +9,21 @@ A detailed index of free _(open-source)_ software around preferential voting.
 ## Formats & Standards
   #### [Condorcet Election Format](https://github.com/CondorcetVote/CondorcetElectionFormat)
   > Specification of a free format, representing an Election an her data (parameters, candidates, votes). The objective of this format is to be easily written and read by a human, with the rigor and precision necessary for ingestion by a program.
+
+  #### [David Hill format](https://rangevoting.org/TidemanData.html)
+  > Developped by David Hill for the tideman data set.
+
+  #### [Debian format](https://www.debian.org/vote/index.en.html)
+  > Custom format used by Debian project.  
   
+  #### Converion tools
+  * **[Condorcet](https://github.com/julien-boudry/Condorcet)** program include a command line tools *(and also php api)* to convert some formats to anothers formats. Including Debian, David-Hill, Civs, CondorcetElectionFormat.
   
 ## Command-line applications
   #### [Condorcet](https://github.com/julien-boudry/Condorcet)
   > *Documentation:* [www.condorcet.io](https://www.condorcet.io)  
   > *Main technologies:* PHP 8  
+  > *Supported input formats:*  Shell, interactive shell, Condorcet Election format, Debian Format, David Hill Format  
   > *Methods:* ```Condorcet / Borda (+ Nauru variant) / Copeland / Dodgson (2 Approximations) / FTPT / Instant-runoff (alternative vote) / Kemeny–Young / Minimax (+ variants) / Ranked Pairs (+ variants) / Schulze (+ variants) / Single Transferable Vote (STV) / Comparison of Pairs of Outcomes by the Single Transferable Vote (CPO-STV) / Highest Averages Methods (Sainte-Laguë, Jefferson/D'Hondt, and variants) / Largest Remainder Methods (with different quotas)```  
   >
   > Command line interface including an interactive mode, complete statistics and the management of huge elections on a modest hardware. Various installation method including Docker, Github codespace or PHP (Phar, Composer).
@@ -43,6 +52,7 @@ A detailed index of free _(open-source)_ software around preferential voting.
   > An open-source demo for a web ovting application based on [Condorcet](#condorcet-1) as backend.
 
   #### [Condorcet Internet Voting System (Civs)](https://github.com/andrewcmyers/civs)
+  > *Supported input formats:* Civs format  
   > *Main technologies:* Perl  
   > *Online version*: [civs1.civs.us](https://civs1.civs.us/).
 
@@ -55,6 +65,7 @@ A detailed index of free _(open-source)_ software around preferential voting.
 ### PHP
   #### [Condorcet](https://github.com/julien-boudry/Condorcet)
   > *Documentation:* [www.condorcet.io](https://www.condorcet.io)  
+  > *Supported input formats:*  PHP Api with methods for Json/String/Object, Condorcet Election format, Debian Format, David Hill Format  
   > *Methods:* ```Condorcet / Borda (+ Nauru variant) / Copeland / Dodgson (2 Approximations) / FTPT / Instant-runoff (alternative vote) / Kemeny–Young / Minimax (+ variants) / Ranked Pairs (+ variants) / Schulze (+ variants) / Single Transferable Vote (STV) / Comparison of Pairs of Outcomes by the Single Transferable Vote (CPO-STV) / Highest Averages Methods (Sainte-Laguë, Jefferson/D'Hondt, and variants) / Largest Remainder Methods (with different quotas)```  
   >
   > Condorcet PHP provides an election engine with a high-level interface to manage all aspects of an election and to run simulations. It's supporting many input methods and various tools & helpers.
