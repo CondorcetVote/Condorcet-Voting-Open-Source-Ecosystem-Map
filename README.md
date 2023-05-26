@@ -32,6 +32,7 @@ A detailed index of free _(open-source)_ software around preferential voting.
     - [Python](#python)
     - [Javascript / Typescript](#javascript--typescript)
     - [C / C++](#c--c)
+      - [VoteFair-ranking-cpp](#votefair-ranking-cpp)
     - [Java](#java)
   - [Software GUI applications](#software-gui-applications)
   - [Scientific Work \& Data](#scientific-work--data)
@@ -119,6 +120,9 @@ A detailed index of free _(open-source)_ software around preferential voting.
 ### Python
 ### Javascript / Typescript
 ### C / C++
+  #### [VoteFair-ranking-cpp](https://github.com/cpsolver/VoteFair-ranking-cpp)
+  > *Methods:* ```RCIPE (VoteFair Popularity / Representation / Party)```  
+  > This C/C++ code calculates results for RCIPE (Ranked Choice Including Pairwise Elimination) voting. It's a compromise between instant-runoff voting (IRV, often called "ranked choice voting") and Condorcet methods. It eliminates "pairwise losing candidates" when they occur, and it counts shared preference levels (which IRV discards as "overvotes"). It implements both single-winner and multi-winner versions.
 ### Java
 
 
