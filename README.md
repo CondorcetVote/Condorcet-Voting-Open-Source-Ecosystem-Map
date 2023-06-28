@@ -31,6 +31,7 @@ A detailed index of free _(open-source)_ software around preferential voting.
       - [Vote-Schulze](#vote-schulze)
     - [Python](#python)
     - [Javascript / Typescript](#javascript--typescript)
+      - [votes](#votes)
     - [C / C++](#c--c)
       - [VoteFair-ranking-cpp](#votefair-ranking-cpp)
     - [Java](#java)
@@ -119,6 +120,12 @@ A detailed index of free _(open-source)_ software around preferential voting.
   > *Methods:* ```Schulze```
 ### Python
 ### Javascript / Typescript
+  #### [votes](https://github.com/lzear/votes)
+  > *Documentation:* [lzear.github.io/votes](https://lzear.github.io/votes/)  
+  > *Methods:* ```Coombs / Copeland's method / FPTP / Instant-runoff / Kemeny–Young / Minimax Condorcet method / Minimax-TD / Nanson / Random candidate / Random dictator / Ranked pairs / Schulze / Smith's method / Maximal lotteries / Randomized Condorcet / Majority Judgements```
+  >
+  > npm library written in Typescript. 
+
 ### C / C++
   #### [VoteFair-ranking-cpp](https://github.com/cpsolver/VoteFair-ranking-cpp)
   > *Methods:* ```RCIPE (VoteFair Popularity / Representation / Party)```  
