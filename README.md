@@ -75,17 +75,21 @@ A detailed index of free _(open-source)_ software around preferential voting.
 
 
 ## Web GUI application
+  #### [Desktop.Condorcet](https://github.com/julien-boudry/Condorcet.Desktop)
+  > *Main technologies:* PHP / HTML / TS 
+  > *Online version*: [desktop.condocet.vote](https://desktop.condorcet.vote/)  
+
   #### [Belenios](https://github.com/glondu/belenios/)
   > *Methods:* ```Schulze / STV ```  
   > *Main technologies:* OCaml  
   > *Online version*: [vote.belenios.org/admin](https://vote.belenios.org/admin)  
 
-  #### [Condorcet.Vote](https://github.com/julien-boudry/Condorcet.Vote)
+  #### [Vintage Condorcet.Vote](https://github.com/julien-boudry/Condorcet.Vote)
   > *Methods:* ```Condorcet / Schulze (+ variants) / Kemeny-Young / Ranked Pairs (+ variants) / Minmax (+variants) / Borda / FTPT / Copeland / Dodgson / Dowdall / Instant-Runoff (alternative vote)```  
   > *Main technologies:* PHP / Mysql / Docker  
-  > *Online version*: [www.condorcet.vote](https://www.condorcet.vote)  
+  > *Online version*: [vintage.condorcet.vote](https://vintage.condorcet.vote)  
   >
-  > An open-source demo for a web ovting application based on [Condorcet](#condorcet-1) as backend.
+  > An open-source demo for a web voting application based on [Condorcet](#condorcet-1) as backend.
 
   #### [Condorcet Internet Voting System (Civs)](https://github.com/andrewcmyers/civs)
   > *Supported input formats:* Civs format  
